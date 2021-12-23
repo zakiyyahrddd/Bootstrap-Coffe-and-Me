@@ -1,0 +1,840 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("../font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Voltaire";
+	src: url("../font/Voltaire-Regular.ttf");
+}
+
+/* All */
+* {
+	box-sizing: content-box;
+	font-family: "Open Sans", sans-serif;
+	font-family: "Voltaire", sans-serif;
+	color: white;
+	letter-spacing: 1px;
+}
+
+/* In All Section */
+.container {
+	position: relative;
+	z-index: 1;
+}
+
+.container h1 {
+	margin-bottom: 30px !important;
+}
+
+.container .btn-style {
+	background: #5b3000;
+	border-radius: 100px;
+	color: #ffffff;
+	padding: 10px 30px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.container .btn.btn-style:hover,
+.container .btn.btn-style:active {
+	background: #5b3000;
+	border-radius: 100px;
+	color: #ffffff;
+	padding: 10px 30px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	box-shadow: 0px 1px 2px#edddd4;
+}
+
+.container p {
+	font-size: 22px !important;
+}
+
+.dua .container p,
+.tiga .container p {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+
+/* Template untuk Produk */
+
+.container .bullet-image {
+	position: relative;
+}
+
+.container .bullet-image img {
+	position: relative;
+	z-index: 1;
+	width: 185px;
+}
+
+.container .bullet-image .bullet {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: #edddd4;
+	position: absolute;
+	bottom: 0;
+	left: 49%;
+	transform: translateX(-50%);
+}
+
+.navbar-fixed {
+	position: fixed !important;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	border: #edddd4 solid 1px;
+}
+
+.navbar {
+	height: 69px;
+	width: 100%;
+	position: absolute !important;
+	z-index: 999;
+}
+
+.navbar-nav {
+	text-align: center;
+}
+
+nav .navbar-nav li > a {
+	color: white !important;
+	font-size: large;
+	letter-spacing: 1px;
+	display: inline-block;
+	margin: 3px;
+	padding: 3px 12px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+nav .navbar-nav li .link-nav:hover,
+nav .navbar-nav li .link-nav:focus {
+	background-color: #5b3000;
+	color: #ffff !important;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 23px;
+}
+
+nav .navbar-nav li .active {
+	background-color: #5b3000;
+	color: #ffff !important;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 23px;
+}
+
+.navbar-brand {
+	width: 100px;
+}
+
+.navbar-dark .navbar-toggler {
+	background-image: url("../images/Menu.png") !important;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 38px;
+	height: 38px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+#nav-item {
+	background-color: #726953;
+	overflow: auto;
+	margin-top: 20px;
+	border-top-left-radius: 23px;
+	border-bottom-left-radius: 23px;
+	padding: 4px;
+}
+
+/* Homepage */
+
+/* Section 1 */
+.satu {
+	background-color: #edddd4;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 16px;
+}
+
+.web-slider-satu {
+	padding: 0px 75px;
+}
+
+.web-slider-satu .slider-satu-web img {
+	width: 100%;
+}
+
+.mobile-slider-satu {
+	padding: 15px 0 5px;
+}
+
+.mobile-slider-satu .slider-satu-mobile img {
+	width: 100%;
+}
+
+.satu .vector {
+	position: absolute !important;
+	right: 0;
+	bottom: 0;
+	height: 95%;
+	width: auto;
+}
+
+/* Section 2 */
+.dua {
+	background: #726953;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 16px;
+}
+
+.dua .vector {
+	position: absolute;
+	height: 100%;
+	width: auto;
+	top: 0;
+}
+
+/* Section 3 */
+.tiga {
+	background: #abc4ab;
+	position: relative;
+	padding: 80px 0 16px;
+}
+
+.tiga .vector {
+	position: absolute;
+	height: 100%;
+	width: auto;
+	bottom: 0;
+	right: 0;
+}
+
+/* Section 4 */
+.empat {
+	background: #edddd4;
+	position: relative;
+	padding: 80px 0 30px;
+}
+
+.bot-about {
+	z-index: 1;
+	position: relative;
+	padding-top: 0 !important ;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0 !important;
+	margin-top: 10px !important;
+}
+
+.bot-about > p {
+	color: black;
+	text-align: center;
+	margin-bottom: 10px !important;
+}
+
+.empat .vector {
+	position: absolute;
+	height: 80%;
+	width: auto;
+	top: 0;
+}
+
+/* Section 5 */
+.lima {
+	background: #726953;
+	position: relative;
+	padding: 80px 0 140px;
+}
+
+.facilities-group {
+	margin-top: 110px;
+}
+
+.facility-item {
+	position: relative;
+	padding-bottom: 40px;
+}
+
+.facility-item img {
+	position: relative;
+	z-index: 1;
+}
+
+/* Section 6 */
+.enam {
+	background: #abc4ab;
+	position: relative;
+	padding: 80px 0 40px;
+}
+
+.enam .map {
+	position: relative;
+	z-index: 3;
+}
+
+.enam .map iframe {
+	border-radius: 20px;
+	border: 0;
+}
+
+.enam p {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: auto;
+	text-align: center;
+	color: black;
+}
+
+.enam .vector {
+	position: absolute;
+	height: 100%;
+	width: auto;
+	bottom: 0;
+}
+
+/* End Homepage */
+
+/* Catalogue */
+.catalog {
+	background: #abc4ab;
+	position: relative;
+	padding: 100px 0 40px;
+}
+
+.catalog .vector {
+	position: absolute;
+	height: 50%;
+	width: auto;
+	bottom: 0;
+}
+/* End Catalogue */
+
+/* Blog */
+.blog {
+	background-color: #edddd4;
+	position: relative;
+	padding: 100px 40px;
+}
+
+.blog h1 {
+	color: black;
+}
+
+.blog h2,
+p {
+	color: white;
+}
+
+.column {
+	display: block;
+	position: relative;
+	z-index: 1;
+	margin: 10px;
+}
+
+.column .title {
+	position: absolute;
+	bottom: 1rem;
+	left: 2rem;
+}
+
+.blog-image {
+	border-radius: 30px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.blog .vector {
+	position: absolute;
+	height: 40%;
+	width: auto;
+	top: 0;
+	right: 0;
+}
+/* End Blog */
+
+/* Blog Content */
+.blog-content {
+	background-color: #edddd4;
+	position: relative;
+	display: block;
+	text-align: justify;
+	padding: 100px 0 40px;
+}
+
+.blog-content h1 {
+	color: black;
+}
+
+.blog-content p {
+	color: black;
+}
+
+.content {
+	z-index: 1;
+	position: relative;
+}
+
+.content-image {
+	display: block;
+	box-sizing: border-box;
+}
+
+.content-image img {
+	border-radius: 30px;
+	display: block;
+}
+
+.content-column {
+	padding-top: 1rem !important;
+}
+
+.blog-content .vector {
+	position: absolute;
+	height: 40%;
+	width: auto;
+	bottom: 0;
+}
+/* End Blog Content */
+
+/* About Us Page */
+.about-us-page {
+	background: #edddd4;
+	position: relative;
+	padding: 100px 0 40px;
+}
+
+.about-us-page h1 {
+	color: black;
+}
+
+.about-page-content {
+	z-index: 1;
+	position: relative;
+}
+
+.about-page-content p {
+	z-index: 1;
+	position: relative;
+	color: black;
+}
+
+.about-page-image {
+	display: block;
+	position: relative;
+	z-index: 1;
+	margin: 10px;
+	width: 90%;
+}
+
+.about-page-image img {
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+
+.about-modal .modal-content {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.about-modal .modal-body.about-us-modal {
+	margin: 0;
+	padding: 30px;
+}
+
+.about-modal .modal-body.about-us-modal img {
+	border-radius: 30px;
+	width: 100%;
+	height: 500px;
+}
+
+/* End About Us Page */
+
+/* Contact Us */
+.contact-us {
+	background: #abc4ab;
+	position: relative;
+	padding: 100px 0 40px;
+	min-height: calc(100vh - 200px) !important;
+	min-width: auto !important;
+}
+
+.form-group-style label {
+	font-size: 20px;
+}
+
+.form-group-style input {
+	border-radius: 23px;
+	background-color: #edddd4;
+}
+
+.form-group-style textarea {
+	border-radius: 23px;
+	background-color: #edddd4;
+}
+
+.contact-us .vector {
+	position: absolute;
+	height: 100%;
+	width: auto;
+	top: 0;
+	right: 0;
+}
+
+/* End Contact Us */
+
+/* Pagination */
+.paginate {
+	display: block;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.pagination .page-item .page-link {
+	background-color: rgba(91, 48, 0, 0.5);
+	border: none;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.pagination .page-item.active .page-link {
+	z-index: 3;
+	background-color: #5b3000;
+	width: 49px;
+	border-radius: 23px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.pagination .page-item.indicator .page-link {
+	background-color: transparent;
+}
+
+.pagination .page-item.indicator .page-link span {
+	color: black;
+}
+/* End Pagination */
+
+/* Modal */
+.product .modal-content {
+	background-color: #726953;
+	border-radius: 58px;
+	padding: 20px;
+}
+
+.product .modal-body .bullet-image {
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.product .modal-body .bullet-image img {
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 183px;
+}
+
+.product .modal-body .bullet-image .bullet {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: #edddd4;
+	position: absolute;
+	bottom: 0;
+	left: 48%;
+	transform: translateX(-50%);
+}
+
+.product .modal-body .description p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: auto;
+}
+
+.product .modal-body .button .btn-style {
+	background: #5b3000;
+	border-radius: 100px;
+	color: #ffffff;
+	padding: 10px 30px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: auto;
+	text-align: center;
+	color: #ffffff;
+}
+
+/* Footer */
+#footer {
+	background-color: #726953;
+	position: relative;
+	height: 200px;
+	display: table;
+	width: 100%;
+}
+
+#footer-container {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+}
+
+.border-right {
+	border-right: 2px solid whitesmoke;
+}
+
+#footer ul {
+	text-align: left;
+	list-style-type: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.brand-footer {
+	width: 120px;
+}
+
+.isi-footer {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+/* Desain Responsive Web */
+
+/* Handphone dengan lebar maksimal 7.1 inchi*/
+@media (max-width: 681.6px) {
+	#nav-item {
+		padding: 0 !important;
+	}
+	.border-right {
+		display: none;
+	}
+
+	.slick-slide img {
+		width: 100%;
+	}
+	.slick-prev {
+		left: -10px;
+	}
+
+	.slick-next {
+		right: -10px;
+	}
+	.contact-us .vector {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	.container .col-about {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.about-page-image {
+		margin: 5px;
+	}
+
+	.about-page-content {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+
+	.content-column {
+		padding-top: 3 !important;
+	}
+
+	.blog-content .vector {
+		display: none;
+	}
+
+	.content {
+		padding-left: 2rem !important;
+		padding-right: 2rem !important;
+	}
+	.blog .vector {
+		display: none;
+	}
+
+	.pagination .page-item.active .page-link {
+		margin-right: 2px !important;
+		margin-left: 2px !important;
+	}
+
+	.pagination .page-item .page-link {
+		margin-right: 2px !important;
+		margin-left: 2px !important;
+	}
+
+	.blog-image {
+		height: calc(68vh);
+		margin-bottom: 35px;
+		object-fit: cover;
+	}
+	.column .title {
+		bottom: 3rem;
+	}
+	.content-image img {
+		width: 80%;
+		height: calc(40vh);
+	}
+	.about-page-image img {
+		height: calc(20vh);
+	}
+	.about-modal .modal-body.about-us-modal img {
+		height: auto;
+	}
+	.catalog .vector {
+		height: auto;
+		width: 100%;
+		bottom: 0;
+	}
+
+	.catalog .container .toresponsive .bullet-image .bullet {
+		height: 110px;
+		width: 110px;
+	}
+
+	.catalog .container .toresponsive .bullet-image {
+		padding-bottom: 0;
+	}
+
+	.catalog .container .toresponsive .bullet-image img {
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.catalog .container .btn-style {
+		padding: 5px !important;
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.catalog .container .btn.btn-style:hover,
+	.catalog .container .btn.btn-style:active {
+		padding: 5px !important;
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.product .modal-content .modal-body .row {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.product .modal-body .description p {
+		font-size: 12px;
+	}
+	.product .modal-content {
+		height: calc(100vh);
+	}
+	.find-us .vector {
+		display: none;
+	}
+	nav .navbar-nav li .link-nav:hover,
+	nav .navbar-nav li .link-nav:focus {
+		width: 100%;
+	}
+	nav .navbar-nav li .active {
+		width: 100%;
+	}
+	#nav-item {
+		left: 20px;
+		right: auto;
+		top: 50px;
+		border-radius: 23px;
+		/* border-color: transparent; */
+	}
+	.dua {
+		padding-bottom: 60px;
+	}
+	.tiga {
+		padding-bottom: 60px;
+	}
+	.vector {
+		position: absolute;
+		height: 100% !important;
+		width: 100% !important;
+		object-fit: cover !important;
+	}
+	.responsive-product-slider {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.dua .container h1,
+	.tiga .container h1,
+	.empat .container h1,
+	.lima .container h1,
+	.enam .container h1 {
+		font-size: 40px;
+		margin-bottom: 25px;
+	}
+
+	.dua .container p,
+	.tiga .container p {
+		font-size: 30px !important;
+		margin-bottom: 10px !important;
+		margin-top: 10px !important;
+	}
+	.lima {
+		padding: 80px 0 30px;
+	}
+
+	.facilities-group {
+		margin-top: 0 !important;
+	}
+}
+
+/* Tablet dengan minimal lebar kurang dari 7.2 inchi hingga maksimal lebar 11 inchi*/
+@media (min-width: 682px) and (max-width: 1269px) {
+	#nav-item {
+		padding: 0 !important;
+	}
+
+	.content-column {
+		padding-top: 3 !important;
+	}
+
+	.blog-content .vector {
+		display: none;
+	}
+}
+
+/* Dekstop d minimal lebar kurang dari 12 inchi  */
+@media (min-width: 1300px) {
+	.satu {
+		padding-top: 120px;
+	}
+}
